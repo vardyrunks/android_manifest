@@ -521,6 +521,12 @@
   <project path="vendor/motorola" name="android_vendor_motorola" remote="du" revision="lollipop" />
   <project path="vendor/lge" name="android_vendor_lge" remote="du" revision="lollipop" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="du" revision="lollipop" />
-
+  
+    <!--E980 BUILD-->
+<project path="device/lge/e980" name="vardyrunks/device_lge_e980" remote="github" revision="lp" />
+<project path="device/lge/ls970-common" name="vardyrunks/device_lge_ls970-common" remote="github" revision="lp" />
+<project path="kernel/lge/gproj" name="vardyrunks/lge-kernel-gproj" remote="github" revision="lp" />
+<project path="device/lge/gproj-common" name="vardyrunks/android_device_lge_gproj-common" remote="github" revision="lp" />
+<project path="vendor/lge" name="vardyrunks/proprietary_vendor_lge" remote="github" revision="lp" />
 </manifest>
 
